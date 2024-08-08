@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="673.0" prefWidth="1413.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI">
+   <children>
+      <Button fx:id="insert" layoutX="372.0" layoutY="30.0" mnemonicParsing="false" onAction="#insert" text="加入" />
+      <TextField fx:id="insert1" layoutX="30.0" layoutY="30.0" prefHeight="23.0" prefWidth="55.0" />
+      <TextField fx:id="insert2" layoutX="98.0" layoutY="30.0" prefHeight="23.0" prefWidth="55.0" />
+      <TextField fx:id="insert3" layoutX="167.0" layoutY="30.0" prefHeight="23.0" prefWidth="55.0" />
+      <TextField fx:id="insert4" layoutX="234.0" layoutY="30.0" prefHeight="23.0" prefWidth="55.0" />
+      <TextField fx:id="insert5" layoutX="301.0" layoutY="30.0" prefHeight="23.0" prefWidth="55.0" />
+      <Label fx:id="title1" layoutX="52.0" layoutY="7.0" text="年" />
+      <Label fx:id="title2" layoutX="120.0" layoutY="7.0" text="月" />
+      <Label fx:id="title3" layoutX="189.0" layoutY="7.0" text="日" />
+      <Label fx:id="title4" layoutX="250.0" layoutY="7.0" text="收入" />
+      <Label fx:id="title5" layoutX="535.0" layoutY="61.0" text="平均支出" />
+      <Button fx:id="update" layoutX="426.0" layoutY="30.0" mnemonicParsing="false" onAction="#update" text="更新" />
+      <Button fx:id="delete" layoutX="484.0" layoutY="30.0" mnemonicParsing="false" onAction="#delete" text="刪除" />
+      <Button fx:id="select" layoutX="539.0" layoutY="30.0" mnemonicParsing="false" onAction="#select" text="顯示" />
+      <Label fx:id="textLabel1" layoutX="45.0" layoutY="68.0" />
+      <Label fx:id="textLabel2" layoutX="123.0" layoutY="68.0" />
+      <Label fx:id="textLabel3" layoutX="191.0" layoutY="68.0" />
+      <Label fx:id="textLabel4" layoutX="247.0" layoutY="68.0" />
+      <Label fx:id="textLabel5" layoutX="313.0" layoutY="68.0" />
+      <Label fx:id="title4" layoutX="480.0" layoutY="61.0" text="平均收入" />
+      <Label fx:id="title411" layoutX="486.0" layoutY="105.0" text="總收入" />
+      <Label fx:id="title412" layoutX="541.0" layoutY="105.0" text="總支出" />
+      <Label fx:id="title42" layoutX="316.0" layoutY="7.0" text="支出" />
+      <Label fx:id="textLabel7" layoutX="542.0" layoutY="82.0" />
+      <Label fx:id="textLabel9" layoutX="542.0" layoutY="127.0" />
+      <Label fx:id="textLabel8" layoutX="487.0" layoutY="127.0" />
+      <Label fx:id="textLabel51" layoutX="388.0" layoutY="54.0" text="每日結餘" />
+      <Label fx:id="textLabel6" layoutX="487.0" layoutY="82.0" />
+      <Label fx:id="rest" layoutX="388.0" layoutY="68.0" />
+      <Button fx:id="search" layoutX="90.0" layoutY="180.0" mnemonicParsing="false" onAction="#search" text="查詢" />
+      <Label fx:id="title4111" layoutX="27.0" layoutY="211.0" text="股票名稱" />
+      <Label fx:id="title41111" layoutX="167.0" layoutY="211.0" text="股價" />
+      <Label fx:id="title41112" layoutX="262.0" layoutY="211.0" text="漲跌" />
+      <Label fx:id="title41113" layoutX="335.0" layoutY="211.0" text="漲跌幅(%)" />
+      <Label fx:id="title41114" layoutX="414.0" layoutY="211.0" text="開盤" />
+      <Label fx:id="title41115" layoutX="475.0" layoutY="211.0" text="昨收" />
+      <Label fx:id="title41116" layoutX="523.0" layoutY="211.0" text="最高" />
+      <Label fx:id="title41117" layoutX="577.0" layoutY="211.0" text="最低" />
+      <Label fx:id="title41118" layoutX="633.0" layoutY="211.0" text="成交量(張)" />
+      <Label fx:id="title41119" layoutX="716.0" layoutY="211.0" text="時間" />
+      <Label fx:id="item1" layoutX="30.0" layoutY="232.0" />
+      <TextField fx:id="insert6" layoutX="25.0" layoutY="180.0" prefHeight="23.0" prefWidth="55.0" />
+      <Label fx:id="item2" layoutX="173.0" layoutY="232.0" />
+      <Label fx:id="item4" layoutX="350.0" layoutY="233.0" />
+      <Label fx:id="item5" layoutX="420.0" layoutY="232.0" />
+      <Label fx:id="item3" layoutX="268.0" layoutY="232.0" />
+      <Label fx:id="item6" layoutX="480.0" layoutY="233.0" />
+      <Label fx:id="item7" layoutX="529.0" layoutY="233.0" />
+      <Label fx:id="item8" layoutX="583.0" layoutY="233.0" />
+      <Label fx:id="item9" layoutX="655.0" layoutY="233.0" />
+      <Label fx:id="item10" layoutX="722.0" layoutY="233.0" />
+      <WebView fx:id="webView" layoutX="764.0" layoutY="15.0" prefHeight="653.0" prefWidth="618.0" />
+   </children>
+</AnchorPane>
